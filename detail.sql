@@ -2,7 +2,6 @@ CREATE DATABASE pwslearn;
 USE pwslearn;
 drop table Emp;
 
-
 -- Creating Table 
 create table Dept(
   DeptNo int(100)  primary key,
@@ -19,9 +18,6 @@ DeptNo int ,
 Mgr int
 );
 alter table Dept add  constraint primary key(DeptNo);
-
-
-
 --                       inserting Data 
 
 
